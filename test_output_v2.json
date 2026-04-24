@@ -1,0 +1,43 @@
+﻿{
+    "user_id":  "deep_24042026",
+    "email_id":  "dm8357@srmist.edu.in",
+    "college_roll_number":  "RA2311008020112",
+    "hierarchies":  [
+                        {
+                            "root":  "A",
+                            "tree":  {
+                                         "B":  {
+                                                   "D":  {
+
+                                                         }
+                                               },
+                                         "C":  {
+
+                                               }
+                                     },
+                            "max_depth":  3,
+                            "has_cycle":  false
+                        },
+                        {
+                            "root":  "E",
+                            "tree":  {
+
+                                     },
+                            "max_depth":  0,
+                            "has_cycle":  true
+                        }
+                    ],
+    "invalid_entries":  [
+                            "X-\u003eX",
+                            "A-\u003eA",
+                            "invalid"
+                        ],
+    "duplicate_edges":  [
+                            "A-\u003eB"
+                        ],
+    "summary":  {
+                    "total_trees":  1,
+                    "total_cycles":  1,
+                    "largest_tree_root":  "A"
+                }
+}
